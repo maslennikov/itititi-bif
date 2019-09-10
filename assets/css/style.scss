@@ -3,18 +3,19 @@
 
 @import "{{ site.theme }}";
 a {
-    color: #52607D;
+    color: #cd5c5c; //indianred
     text-decoration: none
 }
 
 a:hover,
 a:focus {
+  color: #cd5c5c; //indianred
   text-decoration: underline;
   font-weight: inherit;
 }
 
 h1 a {
-  color: inherit;
+  color: inherit !important;
   text-decoration: none;
 }
 

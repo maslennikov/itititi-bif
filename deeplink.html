@@ -1,0 +1,88 @@
+---
+permalink: /deeplink
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+     html, body {
+       height: 100%;
+     }
+     .hidden {
+       display: none;
+     }
+     .open-link {
+       display: flex;
+       width: 100ev;
+       height: 100ev;
+
+     }
+     .link-btn {
+       display: inline-block;
+       font-size: 16px;
+       padding: 24px;
+       color: white;
+       margin: 0 auto;
+     }
+    </style>
+    <title>Переадресация Telegram</title>
+  </head>
+
+  <body class="text-center d-flex flex-column">
+    <div class="header hidden">Переадресация в Telegram!</div>
+    <div class="container d-flex justify-content-center align-items-center flex-column flex-grow-1">
+
+      <div id="open-link">
+        <a id="link" class="link-btn">Открыть</a>
+      </div>
+
+    </div>
+
+    <script>
+     var url = new URL(window.location.href);
+     var redirectUrl = url.searchParams.get('to')
+     var timeout = 100
+
+     forward();
+
+     function getLocation(url) {
+       var link = document.createElement( 'a' );
+       link.href = url;
+       return link;
+     }
+     function forward() {
+       var location = getLocation(redirectUrl);
+       var info = location.pathname.split("/");
+       var deeplink = '';
+
+       switch (info[1]) {
+         case "socks":
+           deeplink = "tg://socks" + location.search;
+           break;
+         case "joinchat":
+           deeplink = "tg://join?invite=" + info[2];
+           break;
+         case "addstickers":
+           deeplink = "tg://addstickers?set=" + info[2];
+           break;
+         case "proxy":
+           deeplink = "tg://" + info[1] + location.search;
+           break;
+         default:
+           var domain = info[1];
+           deeplink = "tg://resolve?domain=" + domain + location.search.replace("?start=", "&start=");
+           if (info[2]) {
+             deeplink += "&post=" + info[2]
+           }
+       }
+
+       document.getElementById("link").href = deeplink;
+       setTimeout(function() {
+         window.location.replace(deeplink);
+       }, timeout );
+     }
+    </script>
+  </body>
+</html>

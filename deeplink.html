@@ -9,21 +9,25 @@ permalink: /deeplink
     <style>
      html, body {
        height: 100%;
+       margin: 0;
+       padding: 0;
+       font-family: sans-serif;
      }
      .hidden {
        display: none;
      }
-     .open-link {
+     .container {
        display: flex;
-       width: 100ev;
-       height: 100ev;
-
+       align-items: center;
+       justify-content: center;
+       height: 100%;
      }
      .link-btn {
        display: inline-block;
        font-size: 16px;
        padding: 24px;
        color: white;
+       background-color: #28c979;
        margin: 0 auto;
      }
     </style>
@@ -33,11 +37,7 @@ permalink: /deeplink
   <body class="text-center d-flex flex-column">
     <div class="header hidden">Переадресация в Telegram!</div>
     <div class="container d-flex justify-content-center align-items-center flex-column flex-grow-1">
-
-      <div id="open-link">
-        <a id="link" class="link-btn">Открыть</a>
-      </div>
-
+        <a id="link" class="link-btn">Открыть в Telegram</a>
     </div>
 
     <script>

@@ -15,10 +15,18 @@ titlelink: https://instagram.com/tvoe.kofevino
 Наше участие в мероприятии стало возможным благодаря помощи друзей, которым мы
 говорим спасибо.
 
+<div style="max-width: 200px; margin-bottom: 16px">
 ![Il Gelato](/assets/img/bif-partners/ig.png)
+</div>
 
+<div style="max-width: 200px; margin-bottom: 16px">
 ![itititi](/assets/img/bif-partners/it.png)
+</div>
 
+<div style="max-width: 200px; margin-bottom: 16px">
 ![Place Freedom](/assets/img/bif-partners/pf.png)
+</div>
 
+<div style="max-width: 200px; margin-bottom: 16px">
 ![Secret Garden](/assets/img/bif-partners/sg.png)
+</div>

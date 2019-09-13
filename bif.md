@@ -3,7 +3,7 @@ layout: default
 permalink: /i/bif-2019
 title: Кофе Вино на БИФ-2019
 description: Кофейное пространство на главном IT-мероприятии года.
-subdescription: Больше о жизни Кофе Вино в инстаграме: <a href="https://instagram.com/tvoe.kofevino">@tvoe.kofevino</a>
+subdescription: Больше о жизни Кофе Вино в инстаграме: <a href="https://instagram.com/tvoe.kofevino">tvoe.kofevino</a>
 logo: /assets/img/kofevino-logo-bif.png
 titlelink: https://instagram.com/tvoe.kofevino
 ---

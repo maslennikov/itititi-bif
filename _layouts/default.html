@@ -26,6 +26,9 @@
         {% endif %}
 
         <p>{{ page.description | default: site.description }}</p>
+        {% if page.subdescription %}
+        <p>{{ page.subdescription }}</p>
+        {% endif %}
 
         <p class="view"><a href="">
           Сменник <small>управление расписанием персонала</small>

@@ -43,10 +43,16 @@ permalink: /deeplink
     <script>
      var url = new URL(window.location.href);
      var redirectUrl = url.searchParams.get('to')
-     var timeout = 100
+     redirectUrl = redirectUrl.replace(/^https?:\/\//, '')
+     var isTelegram = redirectUrl.startsWith('t.me')
+                   || redirectUrl.startsWith('telegram.me')
+     if (!isTelegram) {
+       throw new Error('Only telegram links are supported, received: ' + redirectUrl)
+     }
 
+     var timeout = 100
      if (redirectUrl) {
-       forward(redirectUrl);
+       forward('https://' + redirectUrl);
      } else {
        console.warn('No redirect URL provided');
      }

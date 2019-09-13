@@ -16,7 +16,7 @@
       <header>
 
         {% if page.logo or site.logo %}
-        <a href="{{ "/" | absolute_url }}">
+        <a href="{{ page.titlelink | default: "/" | absolute_url }}">
         <img src="{{page.logo | default: site.logo | relative_url}}" alt="Logo" />
         </a>
         {% else %}

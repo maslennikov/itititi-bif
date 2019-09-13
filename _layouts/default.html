@@ -11,13 +11,14 @@
         </a>
         {% else %}
         <h1><a href="{{ "/" | absolute_url }}">
-            {{ page.title | default: site.title }}
+          {{ page.title | default: site.title }}
         </a></h1>
         {% endif %}
 
+        {% if page.description_layout %}
+        {% include {{ page.description_layout }} %}
+        {% else %}
         <p>{{ page.description | default: site.description }}</p>
-        {% if page.subdescription %}
-        <p>{{ page.subdescription }}</p>
         {% endif %}
 
         <p class="view"><a href="">

@@ -16,3 +16,9 @@ titlelink: https://instagram.com/tvoe.kofevino
 говорим спасибо.
 
 ![Il Gelato](/assets/img/bif-partners/ig.png)
+
+![itititi](/assets/img/bif-partners/it.png)
+
+![Place Freedom](/assets/img/bif-partners/pf.png)
+
+![Secret Garden](/assets/img/bif-partners/sg.png)

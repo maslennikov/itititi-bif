@@ -14,3 +14,5 @@ titlelink: https://instagram.com/tvoe.kofevino
 
 Наше участие в мероприятии стало возможным благодаря помощи друзей, которым мы
 говорим спасибо.
+
+![Il Gelato](/assets/img/bif-partners/ig.png)

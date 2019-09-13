@@ -8,11 +8,7 @@ logo: /assets/img/kofevino-logo-bif.png
 titlelink: https://instagram.com/tvoe.kofevino
 ---
 
-<style type="text/css">
-h1, h2, h3, h4, h5, h6 {
-    background-color: #FFC335;
-}
-</style>
+
 
 # Мы на БИФ-2019
 

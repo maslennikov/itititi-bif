@@ -7,6 +7,6 @@ logo: /assets/img/kofevino-logo-bif.png
 titlelink: https://instagram.com/tvoe.kofevino
 ---
 
-# Здесь будет информация по БИФ-2019
+# Мы на БИФ-2019
 
 Белгород – город добра и благополучия `¯\_(ツ)_/¯`

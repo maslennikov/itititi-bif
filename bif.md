@@ -16,12 +16,14 @@ titlelink: https://instagram.com/tvoe.kofevino
 говорим спасибо.
 
 {% include clickable_image.html
+    class="logo-link"
     link="/"
     src="/assets/img/bif-partners/ig.png"
     alt="il gelato"
     title="il gelato logo" %}
 
 {% include clickable_image.html
+    class="logo-link"
     link="/"
     src="/assets/img/bif-partners/it.png"
     alt="itititi"
@@ -29,6 +31,7 @@ titlelink: https://instagram.com/tvoe.kofevino
 
 {% include
     clickable_image.html
+    class="logo-link"
     link="/"
     src="/assets/img/bif-partners/pf.png"
     alt="place freedom"
@@ -36,6 +39,7 @@ titlelink: https://instagram.com/tvoe.kofevino
 
 {% include
     clickable_image.html
+    class="logo-link"
     link="/"
     src="/assets/img/bif-partners/sg.png"
     alt="secret garden"

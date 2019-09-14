@@ -1,7 +1,6 @@
-<a href="{{ include.link | relative_url }}">
+<a href="{{ include.link | relative_url }}" class="{ include.class |  default: '' }">
   <img
     src="{{ include.src | relative_url }}"
-    class="{ include.class |  default: '' }"
     alt="{ include.alt | default: '' }"
     title="{ include.title | default: '' }"
   />

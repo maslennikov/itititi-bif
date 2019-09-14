@@ -17,7 +17,7 @@ titlelink: https://instagram.com/tvoe.kofevino
 
 {% include clickable_image.html
     class="logo-link"
-    link="/"
+    link="https://instagram.com/il.gelato.bel"
     src="/assets/img/bif-partners/ig.png"
     alt="il gelato"
     title="il gelato logo" %}
@@ -32,7 +32,7 @@ titlelink: https://instagram.com/tvoe.kofevino
 {% include
     clickable_image.html
     class="logo-link"
-    link="/"
+    link="https://instagram.com/place_freedom"
     src="/assets/img/bif-partners/pf.png"
     alt="place freedom"
     title="place freedom logo" %}
@@ -40,7 +40,7 @@ titlelink: https://instagram.com/tvoe.kofevino
 {% include
     clickable_image.html
     class="logo-link"
-    link="/"
+    link="https://instagram.com/secretgarden_bel"
     src="/assets/img/bif-partners/sg.png"
     alt="secret garden"
     title="secred garden logo" %}

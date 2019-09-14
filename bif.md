@@ -15,12 +15,14 @@ titlelink: https://instagram.com/tvoe.kofevino
 Наше участие в мероприятии стало возможным благодаря помощи друзей, которым мы
 говорим спасибо.
 
+<div>
 {% include clickable_image.html
     class="logo-link"
     link="https://instagram.com/il.gelato.bel"
     src="/assets/img/bif-partners/ig.png"
     alt="il gelato"
     title="il gelato logo" %}
+
 {% include clickable_image.html
     class="logo-link"
     link="/"
@@ -41,3 +43,4 @@ titlelink: https://instagram.com/tvoe.kofevino
     src="/assets/img/bif-partners/sg.png"
     alt="secret garden"
     title="secred garden logo" %}
+</div>

@@ -15,7 +15,7 @@ titlelink: https://instagram.com/tvoe.kofevino
 Наше участие в мероприятии стало возможным благодаря помощи друзей, которым мы
 говорим спасибо.
 
-<div>
+<div class="logo-block">
 {% include clickable_image.html
     class="logo-link"
     link="https://instagram.com/il.gelato.bel"

@@ -15,10 +15,28 @@ titlelink: https://instagram.com/tvoe.kofevino
 Наше участие в мероприятии стало возможным благодаря помощи друзей, которым мы
 говорим спасибо.
 
-{% include clickable_image link="/" src="/assets/img/bif-partners/ig.png" alt="il gelato" title="il gelato logo" %}
+{% include clickable_image.html
+    link="/"
+    src="/assets/img/bif-partners/ig.png"
+    alt="il gelato"
+    title="il gelato logo" %}
 
-{% include clickable_image link="/" src="/assets/img/bif-partners/it.png" alt="itititi" title="itititi logo" %}
+{% include clickable_image.html
+    link="/"
+    src="/assets/img/bif-partners/it.png"
+    alt="itititi"
+    title="itititi logo" %}
 
-{% include clickable_image link="/" src="/assets/img/bif-partners/pf.png" alt="place freedom" title="place freedom logo" %}
+{% include
+    clickable_image.html
+    link="/"
+    src="/assets/img/bif-partners/pf.png"
+    alt="place freedom"
+    title="place freedom logo" %}
 
-{% include clickable_image link="/" src="/assets/img/bif-partners/sg.png" alt="secret garden" title="secred garden logo" %}
+{% include
+    clickable_image.html
+    link="/"
+    src="/assets/img/bif-partners/sg.png"
+    alt="secret garden"
+    title="secred garden logo" %}

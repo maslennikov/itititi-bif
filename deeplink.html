@@ -49,7 +49,7 @@ permalink: /deeplink
      var redirectUrl = url.searchParams.get('to')
      var id = url.searchParams.get('i')
      if (id && ids[id]) {
-       redirectUrl = id
+       redirectUrl = ids[id]
      }
 
      redirectUrl = redirectUrl.replace(/^https?:\/\//, '')

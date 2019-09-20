@@ -20,6 +20,7 @@ permalink: /deeplink
        display: flex;
        align-items: center;
        justify-content: center;
+       flex-direction: column;
        height: 100%;
      }
      .link-btn {
@@ -35,21 +36,23 @@ permalink: /deeplink
   </head>
 
   <body class="text-center d-flex flex-column">
-    <div class="header hidden">Открыть ссылку в Telegram!</div>
-    <div class="container d-flex justify-content-center align-items-center flex-column flex-grow-1">
-        <a id="link" class="link-btn">Открыть в Telegram</a>
+    <div class="container">
+      <h1 id="title" class="title hidden">Открыть ссылку в Telegram!</h1>
+      <a id="link" class="link-btn">Открыть в Telegram</a>
     </div>
 
     <script>
      var ids = {
-       kofevino_bot: 't.me/kofevino_bot'
+       kofevino_bot: {url: 't.me/kofevino_bot', title: 'Кофе Вино Бот'}
      }
 
      var url = new URL(window.location.href);
      var redirectUrl = url.searchParams.get('to')
      var id = url.searchParams.get('i')
      if (id && ids[id]) {
-       redirectUrl = ids[id]
+       redirectUrl = ids[id].url
+       document.getElementById('title').innerText = ids[id].title
+       document.getElementById('title').classList.remove('hidden')
      }
 
      redirectUrl = redirectUrl.replace(/^https?:\/\//, '')

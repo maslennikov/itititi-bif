@@ -41,8 +41,17 @@ permalink: /deeplink
     </div>
 
     <script>
+     var ids = {
+       kofevino_bot: 't.me/kofevino_bot'
+     }
+
      var url = new URL(window.location.href);
      var redirectUrl = url.searchParams.get('to')
+     var id = url.searchParams.get('i')
+     if (id && ids[id]) {
+       redirectUrl = id
+     }
+
      redirectUrl = redirectUrl.replace(/^https?:\/\//, '')
      var isTelegram = redirectUrl.startsWith('t.me')
                    || redirectUrl.startsWith('telegram.me')

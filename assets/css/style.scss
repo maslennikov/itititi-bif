@@ -315,7 +315,8 @@ dl {
 h1,
 h2,
 h3 {
-    line-height: 1.1
+  line-height: 1.2;
+  letter-spacing: .5px;
 }
 
 h1 {
@@ -617,8 +618,8 @@ footer p {
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap&subset=cyrillic');
 
 body {
-  color: #4a4a4a;
-  font: 14px/1.5 "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #555;
+  font: 16px/1.4 "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p, ol, ul, table, pre, dl {

@@ -336,15 +336,18 @@ h6 {
 }
 
 a {
-    color: #267CB9;
-    text-decoration: none
+  text-decoration: none;
+  border-bottom: 1px solid #267CB9;
+  margin-bottom: -1px;
+  color: inherit;
 }
 
 a:hover,
 a:focus {
-    color: #069;
-    font-weight: bold
+  color: #069;
+  border-color: #069;
 }
+
 
 a small {
     font-size: 11px;
@@ -620,16 +623,6 @@ p + ul {
   margin-top: -16px;
 }
 
-a {
-    text-decoration: none
-}
-
-a:hover,
-a:focus {
-  text-decoration: underline;
-  font-weight: inherit;
-}
-
 h1 {
   /* background-color: #B4D9C0; */
   background-color: #FFC335;
@@ -653,6 +646,13 @@ a:hover small {
 
 section {
   border: none;
+}
+
+header a,
+footer .title a,
+a.clickable-img {
+  border-bottom: none;
+  margin-bottom: 0;
 }
 
 footer {

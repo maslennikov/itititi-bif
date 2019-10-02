@@ -4,6 +4,7 @@
 /* @import "{{ site.theme }}"; */
 
 /* removed noto sans font loading */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700&display=swap&subset=cyrillic');
 
 .highlight table td {
     padding: 5px
@@ -572,18 +573,6 @@ screen and (max-width: 480px) {
     }
 }
 
-a {
-    color: #cd5c5c;
-    text-decoration: none
-}
-
-a:hover,
-a:focus {
-    color: #cd5c5c;
-    text-decoration: underline;
-    font-weight: inherit
-}
-
 h1 a {
     color: inherit !important;
     text-decoration: none
@@ -615,11 +604,12 @@ footer p {
 /** END OF {{site.theme}} **/
 
 
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap&subset=cyrillic');
-
 body {
-  color: #555;
-  font: 16px/1.4 "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
 }
 
 p, ol, ul, table, pre, dl {
@@ -631,15 +621,18 @@ p + ul {
 }
 
 a {
-    color: #cd5c5c; //indianred
     text-decoration: none
 }
 
 a:hover,
 a:focus {
-  color: #cd5c5c; //indianred
   text-decoration: underline;
   font-weight: inherit;
+}
+
+h1 {
+  /* background-color: #B4D9C0; */
+  background-color: #FFC335;
 }
 
 h1 a {

@@ -662,8 +662,17 @@ a.clickable-img {
   margin-bottom: 0;
 }
 
+header .nav {
+  background-color: #e9f1ec;
+  font-size: .9rem;
+}
+
 footer {
   font-size: .9em;
+}
+
+footer .title {
+  font-family: "Fira Sans Extra Condensed";
 }
 
 footer p {

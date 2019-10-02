@@ -319,7 +319,7 @@ h1,
 h2,
 h3 {
   line-height: 1.2;
-  letter-spacing: .5px;
+  letter-spacing: 1.1px;
 }
 
 h1 {
@@ -625,12 +625,9 @@ p + ul {
   margin-top: -16px;
 }
 
-p + h2 {
-  margin-top: 16px;
-}
-
-p + h3 {
-  margin-top: 8px;
+p + h2, ul + h2, ol + h2
+p + h3, ul + h3, ol + h3 {
+  margin-top: 24px;
 }
 
 h1 {

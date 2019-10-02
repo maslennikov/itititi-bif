@@ -622,7 +622,11 @@ p, ol, ul, table, pre, dl {
 }
 
 p + ul {
-  margin-top: -16px;
+  margin-top: -8px;
+}
+
+ul li {
+  margin-top: 4px;
 }
 
 p + h2, ul + h2, ol + h2

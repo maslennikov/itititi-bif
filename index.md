@@ -19,7 +19,7 @@ layout: default
 
 ## Телеграм-бот для автоматизации распечатки ценников
 
-<div style="margin: 0 auto">
+<div class="fluid-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MfY1HfpGIHM?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 

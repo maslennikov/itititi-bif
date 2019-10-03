@@ -660,8 +660,7 @@ section {
 }
 
 header a,
-footer .title a,
-a.clickable-img {
+footer .title a {
   border-bottom: none;
   margin-bottom: 0;
 }
@@ -681,4 +680,27 @@ footer .title {
 
 footer p {
   margin-bottom: 8px;
+}
+
+/************
+ * PARTIALS
+ ************/
+
+a.clickable-img {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.fluid-video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.fluid-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

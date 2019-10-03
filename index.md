@@ -18,9 +18,8 @@ layout: default
 
 
 ## Телеграм-бот для распечатки красивых ценников
-
 <div class="fluid-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MfY1HfpGIHM?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1GLBmhN8wlY?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 На видео заснят процесс создания PDF-документа со сверстанным ценником в
